@@ -1,26 +1,16 @@
 /* 
 Navbar Background: #222222
-
 Navbar First Word Text Color 
 #45494c
-
 Navbar rest word text color 
 #4c4c4b
-
 Main BC #ffffff
-
 Header Bakground #eeeeee
-
 Header Title #393939
-
 Header Content #393939
-
 Header Button BC #428bca
-
 Header Button text #eeeee2
-
 Border Color #f6f6f6
-
 */
 
 *{
@@ -54,7 +44,7 @@ ul{
 
 li{
     font-size: 22px;
-    color: #45494c;
+    color: #767676;
 }
 
 li:first-child{
@@ -96,7 +86,7 @@ li:first-child{
 .jb-button{
     box-sizing: border-box;
     width: 130px;
-    padding: 2% 1%;
+    padding: 1% 1%;
     border-radius: 4px;
     text-align: center;
     border: 1px solid #428bca;
@@ -200,7 +190,7 @@ li:first-child{
 }
 
 .footer-text{
-    font-size: 2em;
+    font-size: 1.5em;
     color: #393939;
 }
 
@@ -220,13 +210,16 @@ li:first-child{
 
 @media(max-width: 768px){
 
+.jumbotron{
+    margin-bottom: 5%;
+}
 .gallery{
     box-sizing: border-box;
     width: 100%;
     height: auto;
-    border-top: 1px solid #f6f6f6;
-    border-bottom: 1px solid #f6f6f6;
-    padding: 2% 0;
+    border-top: 1px solid #d4d4d4;
+    border-bottom: 1px solid #d4d4d4;
+    padding: 3% 0 10% 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 30px 1fr 1fr;
@@ -248,7 +241,11 @@ li:first-child{
 
     li{
         font-size: 20px;
-        color: #45494c;
+        color: #767676;
+    }
+
+    .footer-text{
+        font-size: 1.3em;
     }
 }
 
@@ -257,13 +254,16 @@ li:first-child{
         box-sizing: border-box;
         width: 100%;
         height: auto;
-        border-top: 1px solid #f6f6f6;
-        border-bottom: 1px solid #f6f6f6;
-        padding: 2% 0;
+        border-top: 1px solid #d4d4d4;
+        border-bottom: 1px solid #d4d4d4;
+        padding: 3% 0 10% 0;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 30px 1fr 1fr 1fr 1fr;
         row-gap: 10px;
+        }
+        .jumbotron{
+            margin-bottom: 8%;
         }
 
         .footer-text{
@@ -281,7 +281,11 @@ li:first-child{
 
         li{
             font-size: 16px;
-            color: #45494c;
+            color: #767676;
+        }
+
+        .footer-text{
+            font-size: 1.2em;
         }
     
 }
